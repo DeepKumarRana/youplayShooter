@@ -1,0 +1,323 @@
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+	.angled-img {
+	    margin-bottom: 15px;
+	}
+
+	header.header {
+	}
+
+	.black-rock-shooter-banner {
+	    background-repeat: no-repeat;
+	    padding: 135px 0;
+	}
+
+	.black-rock-shooter-content {
+	    margin-left: 35px;
+	}
+
+	.btn {
+	    padding: 6px 16px;
+	    font-size: 14px;
+	}
+
+	.content-box {
+	    padding: 20px 10px;
+	}
+
+	.content-box-content h2 {
+	    font-size: 20px;
+	    margin-bottom: 3px;
+	}
+
+	.content-box-content p {
+	    font-size: 10px;
+	}
+
+	.content-box-img {
+	    height: 35px;
+	    width: 35px;
+	    margin-bottom: 5px;
+	}
+
+	.black-rock-shooter-content h1 {
+	    font-size: 35px;
+	}
+
+	.Screenshots {
+	    margin-left: 35px;
+	    margin-bottom: 0px;
+	}
+
+	.Screenshots h1 {
+    font-size: 35px;
+	}
+
+	.about-content {
+	    margin-left: 35px;
+	}
+
+	.about-content h1 {
+	    font-size: 35px;
+	    margin-bottom: 10px;
+	}
+
+	.about-content p {
+	    font-size: 15px;
+	}
+
+	.what-gamers-are-saying h1 {
+	    font-size: 35px;
+	    margin-bottom: 20px;
+	}
+
+	.testimonials-box {padding: 0;}
+
+	.testimonials-box-content {
+	    padding: 20px 14px;
+	    font-size: 14px;
+	}
+
+	.testimonials-content {
+	    padding: 40px 15px;
+	}
+
+	.news-wrapper h1 {
+	    font-size: 35px;
+	    margin-left: 35px;
+	    margin-bottom: 10px;
+	}
+
+	.news-heading h1 {
+	    font-size: 21px;
+	    margin-left: 0;
+	    margin-bottom: 0;
+	}
+
+	.tags img {
+	    width: 20px;
+	}
+
+	.news-content p {
+	    font-size: 14px;
+	}
+
+	span.date {
+	    font-size: 13px;
+	}
+
+	.news-heading {}
+
+	.pre-order-content h1 {
+	    font-size: 37px;
+	    margin-bottom: 15px;
+	}
+
+	.pre-order-banner {
+	    padding: 70px 0;
+	}
+
+	.countdown-row {
+	    margin: 13px 0;
+	}
+
+	.countdown-box {
+	    padding: 20px 30px;
+	}
+
+	.partners-wrapper {
+	    padding: 50px 35px;
+	}
+
+	.partners-wrapper h1 {
+	    font-size: 35px;
+	    margin-bottom: -15px;
+	}
+
+	.owl-nav button span {
+	    font-size: 35px;
+	    padding: 0px 16px;
+	}
+
+	.get-it-now-wrapper h1 {
+	    margin-bottom: 10px;
+	}
+
+	.get-it-now-wrapper p {
+	    font-size: 16px;
+	}
+
+	.social-row {display: flex;flex-wrap: wrap;}
+
+	.social-icon-image {
+	    padding: 25px 45px;
+	    margin: 20px 0px;
+	}
+
+	.social-icon-image svg {
+	    height: 45px;
+	    width: 45px;
+	}
+
+	.youplay-footer-content {
+	    padding: 70px 21px;
+	}
+}
+
+@media only screen and (max-width:767px){
+
+	li.nav-item {
+    padding: 7px 5px;
+    font-size: 13.5px;
+	}
+	.black-rock-shooter-banner {
+	    padding: 120px 0;
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    background-size: cover;
+	}
+
+	.black-rock-shooter-content h1 {
+	    font-size: 35px;
+	    margin-bottom: 10px;
+	}
+
+	.black-rock-shooter-content {
+	    margin-left: 15px;
+	}
+	.btn {
+	    padding: 4px 8px;
+	}
+
+	.banner-buttons a {
+	    font-size: 14px;
+	}
+
+	.content-box {
+	    margin-bottom: 25px;
+	}
+
+	.Screenshots {
+	    margin-left: 15px;
+	}
+
+	.Screenshots h1 {
+	    font-size: 35px;
+	}
+
+	.about-content {
+	    margin-left: 15px;
+	    padding: 0 0;
+	}
+
+	.about-content h1 {
+	    font-size: 35px;
+	    margin-bottom: 15px;
+	}
+
+	.about-content p {
+	    font-size: 14px;
+	}
+
+	.what-gamers-are-saying h1 {
+	    font-size: 35px;
+	}
+
+	.testimonials-box {
+    padding: 0 20px;
+    margin-bottom: 30px;
+	}
+
+	.testimonials-box-content {
+    padding: 23px 20px;
+	}
+	.news-wrapper h1 {
+	    font-size: 35px;
+	    margin-left: 15px;
+	    margin-bottom: 20px;
+	}
+
+	.news-heading h1 {
+	    font-size: 20px;
+	    margin-bottom: 0px;
+	}
+
+	span.date {
+	    font-size: 10px;
+	    text-align: center;
+	}
+	span.date svg {
+    width: 18px;
+	}
+	.news-heading {
+	    align-items: flex-start;
+	    margin-bottom: 5px;
+	}
+	.description {
+    margin-left: 15px;
+	}
+	.news-wrapper p {
+	    font-size: 13px;
+	    margin-bottom: 5px;
+	}
+	.tags {
+    margin-left: 15px;
+    margin-bottom: 5px;
+	}
+	.tags img {
+    width: 20px;
+	}
+	.news-button {
+	    text-align: center;
+	    margin-top: 15px;
+	}
+	.pre-order-content h1 {
+	    font-size: 35px;
+	    margin-bottom: 3px;
+	}
+
+	.countdown-row {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+
+	.partners-wrapper h1 {
+	    font-size: 35px;
+	}
+
+	.partners-heading {
+	    text-align: center;
+	}
+
+	.owl-nav button span {
+	    font-size: 30px;
+	    height: 30px;
+	    padding: 0 8px;
+	}
+
+	.get-it-now-wrapper h1 {
+	    margin-bottom: 10px;
+	}
+
+	.get-it-now-wrapper p {
+	    font-size: 14px;
+	}
+
+	.get-it-now-wrapper a.btn.btn-transparent {
+	    margin-bottom: 10px;
+	    display: inline-block;
+	}
+
+	.get-it-now-wrapper a {
+	    display: inline-block;
+	    margin-bottom: 10px;
+	}
+
+	.social-row {display: flex;flex-wrap: wrap;}
+
+	.angled-img {
+	    margin-bottom: 15px;
+	}
+}

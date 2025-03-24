@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+ul,ol{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+img{
+    max-width:100%;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+body{
+    font-family: Cantarell;
+    color:fff;
+}
+.main-wrapper {
+    background-image: url(images/banner-main.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(45deg, #06050b, #3b253a);
+    z-index: 99;
+}
+
+.navbar-brand {
+    width: 140px;
+}
+li.nav-item {
+    padding: 0 25px;
+    font-size: 14.5px;
+}
+.custom-navbar button.navbar-toggler {
+    filter: invert(1);
+}
+.btn {
+    padding: 9px 30px;
+    border-radius: 4px;
+}
+
+.btn-transparent {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.btn-transparent:hover {
+    background: #d6598d;
+}
+.btn-pink {
+    background: #d6598d;
+    color: #fff;
+}
+.btn-pink:hover {
+    border-color: #fff;
+}
+
+.black-rock-shooter-banner {
+    background-image: url(images/black-rock-banner.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 300px 0;
+    background-position: top center;
+}
+.black-rock-shooter-content h1 {
+    font-size: 50px;
+    font-family: Passion One;
+    margin-bottom: 1rem;
+}
+.black-rock-shooter-content {
+    margin-left: 50px;
+}
+.banner-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.content-wrapper {
+    background: #140513ed;
+    padding: 53px 35px;
+    padding-bottom: 3px;
+}
+
+.content-box {
+    transform: skew(-8deg);
+    background: rgba(255, 255, 255, .1);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.content-box-img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    transform: skew(8deg);
+    margin-bottom: 20px;
+}
+
+.content-box-content {
+    transform: skew(8deg);
+}
+
+.content-box-content h2 {
+    font-size: 24px;
+    font-family: 'Passion One';
+}
+.carousel-image {
+    height: 190px;
+}
+
+.carousel-image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.owl-nav button span {
+    background: #ffffff4a;
+    padding: 0px 16px;
+    font-size: 50px;
+    display: inline-flex;
+    height: 50px;
+    align-items: center;
+}
+.Screenshots {
+    margin-left: 50px;
+    margin-bottom: 48px;
+}
+
+.screenshots-wrapper {
+    background: #140513ed;
+    padding: 50px 0;
+}
+
+.Screenshots h1 {
+    font-size: 50px;
+    font-family: 'Passion One';
+}
+.about-wrapper {
+    background: #140513ed;
+}
+
+.video-container {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.about-content h1 {
+    font-family: 'Passion One';
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+.about-content {
+    margin-left: 50px;
+    padding: 50px 0;
+}
+
+.about-content p {
+    font-size: 20px;
+}
+
+.testimonials-banner {
+    background-image: url(images/carousel3.jpg);
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.what-gamers-are-saying {
+    text-align: center;
+}
+
+.testimonials-content {
+    padding: 90px 0;
+}
+
+.what-gamers-are-saying h1 {
+    font-size: 50px;
+    font-family: 'Passion One';
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.testimonials-box-content {
+    min-height: 200px;
+    background: rgb(255 255 255 / 20%);
+    color: #ffffffd1;
+    font-size: 15px;
+    padding: 23px 40px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+span.cus-name {
+    text-align: right;
+}
+
+.testimonials-box {
+    padding: 0 35px;
+}
+
+.customer-image {
+    width: 75px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonials-box-content:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    height: 15px;
+    width: 15px;
+    border-left: 15px solid #0000;
+    border-right: 15px solid #0000;
+    border-top: 15px solid rgb(255 255 255 / 20%);
+    margin: auto;
+}
+.news-wrapper {
+    background: #140513ed;
+    padding: 50px 0;
+}
+
+.news-wrapper h1 {
+    font-size: 50px;
+    font-family: 'Passion One';
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.news-one {
+    margin-bottom: 50px;
+}
+.news-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-heading h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+span.date {
+    color: rgba(255, 255, 255, .5);
+    font-size: 14px;
+}
+
+.tags img {
+    width: 30px;
+}
+
+.tags {
+    color: rgba(255, 255, 255, .5);
+    font-size: 13px;
+}
+.angled-img {
+    transform: skew(-4deg);
+}
+.countdown-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+
+.pre-order-content {
+    text-align: center;
+    font-family: 'Passion One';
+}
+
+.countdown-item {
+    font-family: 'Passion One';
+    text-align: center;
+    font-size: 30px;
+}
+
+.countdown-item .countdown-box span {
+    display: inline-block;
+    font-size: 40px;
+    transform: skew(8deg);
+}
+
+.countdown-box {
+    transform: skew(-8deg);
+    padding: 30px 50px;
+    background: #00000099;
+    margin: 25px 0;
+}
+
+.pre-order-content h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.pre-order-content h4 {
+    font-size: 30px;
+}
+
+.countdown-item span {
+    font-size: 20px;
+}
+
+.pre-order-banner {
+    background-image: url(images/countdown-banner.jpeg);
+    background-attachment: fixed;
+    background-position:  top;
+    background-size: cover;
+    padding: 100px 0;
+}
+.pre-order-btn {
+    text-align: center;
+}
+.partners-wrapper {
+    background: #140513ed;
+    padding: 50px 50px;
+}
+
+.partners-wrapper h1 {
+    font-family: 'Passion One';
+    font-size: 50px;
+}
+
+.partners-image {
+    height: 150px;
+}
+
+.partners-image img {
+    height: 100%;
+    object-fit: contain;
+}
+.get-it-now-wrapper {
+    padding: 50px 0;
+}
+
+.get-it-now-wrapper h1 {
+    margin-bottom: 50px;
+}
+
+.get-it-now-wrapper p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.youplay-footer-banner {
+    background-image: url(images/carousel3.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.social-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.youplay-footer-content {
+    padding: 90px 50px;
+    text-align: center;
+}
+
+.social-icon-image {
+    background: #00000080;
+    padding: 30px 45px;
+    transform: skew(-8deg);
+    margin: 35px 0;
+}
+
+.social-icon-image a {
+    transform: skew(8deg);
+    display: inline-block;
+}
+
+.youplay-footer-content h4 {
+    font-size: 35px;
+    font-family: 'Passion One';
+}
+
+.copyright {
+    text-align: center;
+    padding: 30px 0;
+    background: #000000c4;
+}
